@@ -1,8 +1,8 @@
 package com.example.quanlycuahangbandoan.bean;
 
-import java.io.Serializable;
+import com.example.quanlycuahangbandoan.db.DatabaseHandler;
 
-import hcmute.edu.vn.store.db.DatabaseHandler;
+import java.io.Serializable;
 
 public class Product implements Serializable {
     private int iID;

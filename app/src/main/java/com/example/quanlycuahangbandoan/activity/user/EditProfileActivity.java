@@ -22,9 +22,9 @@ import androidx.appcompat.widget.Toolbar;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import hcmute.edu.vn.store.R;
-import hcmute.edu.vn.store.bean.User;
-import hcmute.edu.vn.store.db.DatabaseHandler;
+import com.example.quanlycuahangbandoan.R;
+import com.example.quanlycuahangbandoan.bean.User;
+import com.example.quanlycuahangbandoan.db.DatabaseHandler;
 
 public class EditProfileActivity extends AppCompatActivity {
 

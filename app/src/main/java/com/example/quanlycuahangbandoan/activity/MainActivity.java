@@ -76,22 +76,22 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             Fragment fragment;
-            switch (item.getItemId()) {
-                case R.id.navigation_product:
-                    fragment = new CategoryProductFragment();
-                    fragment.setArguments(bundle);
-                    loadFragment(fragment);
-                    return true;
-                case R.id.navigation_cart:
-                    fragment = new CartFragment();
-                    fragment.setArguments(bundle);
-                    loadFragment(fragment);
-                    return true;
-                case R.id.navigation_profile:
-                    fragment = new ProfileFragment();
-                    fragment.setArguments(bundle);
-                    loadFragment(fragment);
-                    return true;
+            int itemId = item.getItemId();
+            if (itemId == R.id.navigation_product) {
+                fragment = new CategoryProductFragment();
+                fragment.setArguments(bundle);
+                loadFragment(fragment);
+                return true;
+            } else if (itemId == R.id.navigation_cart) {
+                fragment = new CartFragment();
+                fragment.setArguments(bundle);
+                loadFragment(fragment);
+                return true;
+            } else if (itemId == R.id.navigation_profile) {
+                fragment = new ProfileFragment();
+                fragment.setArguments(bundle);
+                loadFragment(fragment);
+                return true;
             }
             return false;
         }

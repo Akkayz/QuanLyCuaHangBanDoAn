@@ -19,16 +19,16 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.quanlycuahangbandoan.R;
+import com.example.quanlycuahangbandoan.bean.Role;
+import com.example.quanlycuahangbandoan.bean.User;
+import com.example.quanlycuahangbandoan.db.DatabaseHandler;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import hcmute.edu.vn.store.R;
-import hcmute.edu.vn.store.bean.Role;
-import hcmute.edu.vn.store.bean.User;
-import hcmute.edu.vn.store.db.DatabaseHandler;
 
 public class AddEditUserActivity extends AppCompatActivity {
 

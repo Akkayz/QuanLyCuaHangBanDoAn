@@ -23,9 +23,9 @@ import androidx.core.app.NotificationManagerCompat;
 import java.util.ArrayList;
 import java.util.List;
 
-import hcmute.edu.vn.store.R;
-import hcmute.edu.vn.store.bean.User;
-import hcmute.edu.vn.store.db.DatabaseHandler;
+import com.example.quanlycuahangbandoan.R;
+import com.example.quanlycuahangbandoan.bean.User;
+import com.example.quanlycuahangbandoan.db.DatabaseHandler;
 
 public class AddUserActivity extends AppCompatActivity {
     private ListView listView;
